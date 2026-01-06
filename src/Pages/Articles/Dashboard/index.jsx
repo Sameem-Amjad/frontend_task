@@ -6,7 +6,7 @@ import { logout } from '@/redux/features/auth/authSlice';
 import { fetchArticles } from '@/redux/features/article/articleThunk';
 import { clearArticleMessages } from '@/redux/features/article/articleSlice';
 import toast from 'react-hot-toast';
-import { handleDelete } from '@/utils/confirmDelete';
+import { handleDelete } from '@/components/ConfirmDeleteToast';
 
 const Dashboard = () => {
     // Select data from Redux Store
