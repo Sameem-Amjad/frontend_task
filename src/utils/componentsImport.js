@@ -7,6 +7,7 @@ const Components = {
     Dashboard: lazy(() => import('@/Pages/Articles/Dashboard/index.jsx')),
     ArticleForm: lazy(() => import('@/Pages/Articles/Editor/index.jsx')),
     PageNotFound: lazy(() => import('@/Pages/PageNotFound/index.jsx')),
+    ApiDocs: lazy(() => import('@/Pages/ApiDocs/index.jsx')),
 }
 
 export default Components;

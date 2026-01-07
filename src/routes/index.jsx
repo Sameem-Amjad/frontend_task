@@ -49,6 +49,14 @@ const router = createBrowserRouter([
         ),
     },
     {
+        path: "/api-docs",
+        element: (
+            <Suspense fallback={<Loader />}>
+                <Components.ApiDocs />
+            </Suspense>
+        ),
+    },
+    {
         element: (
             <Suspense fallback={<Loader />}>
                 <PrivateRoute allowedRoles={["ADMIN", "EDITOR"]} />
